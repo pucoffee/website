@@ -1,0 +1,10 @@
+#menu-item {
+  text-align: center;
+  font-size: 25px;
+  font-family: Billy;
+  min-width: 230px;
+}
+
+#blurb-div {
+  min-width: 230px;
+}

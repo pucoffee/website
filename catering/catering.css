@@ -1,0 +1,40 @@
+
+#blurb-div {
+  width: 80%;
+  max-width: 800px;
+  margin:0px auto;
+  height: 500px;
+  overflow: visible;
+  border-style: double;
+  border-width: 5px;
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+
+
+#catering-menu {
+  font-size: 30px;
+}
+
+#blurb-text {
+  font-size: 40px;
+  text-align: center;
+  font-family: Billy;
+  line-height: 25px;
+}
+
+#blurb-title {
+  font-size: 35px;
+  text-decoration: bold;
+  text-align: center;
+  font-family: Westfalia;
+  color: #010A26;
+}
+
+nav {
+  padding-bottom:20px;
+}
+
+footer {
+  padding-top: 40px;
+}

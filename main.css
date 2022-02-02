@@ -1,0 +1,181 @@
+@font-face {
+  font-family: SundayMorning;
+  src: url("assets/fonts/Sunday\ Morning.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Billy;
+  src: url("assets/fonts/billy.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Parker;
+  src: url("assets/fonts/parker.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Westfalia;
+  src: url("assets/fonts/westfalia-regular.otf") format("opentype");
+}
+
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Billy;
+}
+
+body {
+  background-color: #f2ebdc;
+}
+
+#titlebar, #title, #left-content-div, #right-content-div {
+  height: 200px;
+}
+
+#title img{
+  width: 400px;
+  margin-top: -20px;
+}
+
+#navlinks {
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  margin-top: -5px;
+}
+
+#logo {
+  vertical-align: middle;
+}
+
+#titlebar {
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+#left-text {
+  padding-top: 80px;
+  margin-right: -15px;
+  font-family: Parker;
+}
+
+#right-text {
+  padding-top: 70px;
+  font-family: Parker;
+}
+
+a {
+  color: #fa5f0c;
+}
+
+a:hover {
+  color: #ad4309;
+  text-decoration: none;
+}
+
+nav {
+  width: 450px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+nav a {
+  color: black;
+  margin: 0 auto;
+  font-size: 28px;
+  font-family: Parker;
+}
+
+nav a:hover {
+  color: #fa5f0c;
+}
+
+.side div {
+  padding: 2em;
+}
+
+main {
+  position: relative;
+  height: 100%;
+}
+
+#background {
+  width: 800px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* mobile elements */
+.mobile {
+  display:none;
+}
+
+#text-title {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#hours-div {
+  padding-top: 50px;
+}
+
+#hours {
+  margin: 0px;
+  font-size: 20px;
+}
+
+#location {
+  font-size: 20px;
+}
+
+#location-div {
+  width: 230px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin: 0px auto;
+}
+
+/* don't show left and righ text when screen < 750px */
+@media screen and (min-width: 0px) and (max-width: 690px) {
+  #left-text, #right-text { 
+    display: none; 
+  }  
+}
+
+/* scale size of background image when screen is narrow */
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  #background {
+    width: 85%;
+    padding-bottom: 0px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+  }
+  header.masthead.mb-auto {
+    margin-bottom: 0px !important;
+  }
+}
+
+/* mobile version */
+@media screen and (min-width: 0px) and (max-width: 475px) {
+  #left-text, #right-text { 
+    display: none; 
+  }  
+  #title img{
+    width: 90%;
+  }
+  nav {
+    width: 90%;
+  }
+  /*.mobile {
+    display: block;
+  }*/
+}
+
